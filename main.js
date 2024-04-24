@@ -36,6 +36,7 @@ window.alert = function(message, timeout=null){
         flex-direction:column;
         align-items:center;
         border-radius:5px;
+        background-color:#FFFFFF;
       `)
       document.body.appendChild(alert);
       const alertButton = document.createElement('button');
